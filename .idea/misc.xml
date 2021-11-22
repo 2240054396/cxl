@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../crm/qwe/qwe" />
+    <file type="web" url="file://$PROJECT_DIR$/src/stage3/lombok/lombok" />
+    <file type="web" url="file://$PROJECT_DIR$/src/stage3/mybatis/mybatis" />
+    <file type="web" url="file://$PROJECT_DIR$/src/stage3/spring/day02/sourceCode/spring_an" />
+    <file type="web" url="file://$PROJECT_DIR$/src/stage3/spring/day02/untitled" />
+    <file type="web" url="file://$PROJECT_DIR$/src/stage3/spring/product/springAnnotation" />
+    <file type="web" url="file://$PROJECT_DIR$/src/stage3/spring/product/springLifePeriod" />
+    <file type="web" url="file://$PROJECT_DIR$/src/stage3/spring/product/springXml" />
+    <file type="web" url="file://$PROJECT_DIR$/src/stage3/spring/product/ThreadLocalTest" />
+    <file type="web" url="file://$PROJECT_DIR$/src/stage3/springMVC/day01/sourceCode/springmvc_an" />
+    <file type="web" url="file://$PROJECT_DIR$/src/stage3/springMVC/day01/sourceCode/springMVC_xml" />
+    <file type="web" url="file://$PROJECT_DIR$/src/stage3/springMVC/day02/ssm" />
+    <file type="web" url="file://$PROJECT_DIR$/src/stage3/springMVC/day03/cors" />
+    <file type="web" url="file://$PROJECT_DIR$/src/stage3/springMVC/day03/crm" />
+    <file type="web" url="file://$PROJECT_DIR$/src/stage3/springMVC/product/ajaxTest" />
+    <file type="web" url="file://$PROJECT_DIR$/src/stage3/springMVC/product/portTest" />
+    <file type="web" url="file://$PROJECT_DIR$/src/stage3/springMVC/product/product" />
+    <file type="web" url="file://$PROJECT_DIR$/src/stage3/springMVC/product/springSpringmvcMybatis" />
+    <type id="Spring" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/stage3/lombok/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/springAnnotation/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/springLifePeriod/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/springXml/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/spring/day02/sourceCode/spring_an/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/spring/product/springXml/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/spring/product/springLifePeriod/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/untitled/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/threadLocal/ThreadLocalTest/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/springMybatis/springMybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/spring/day03/springMybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/spring/product/ThreadLocalTest/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/spring/day01/spring_xml/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/springMVC/day01/sourceCode/springMVC_xml/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/springMVC/day01/sourceCode/springmvc_an/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/springMVC/day02/ssm/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/springMVC/product/springSpringmvcMybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/mybatis/product/mybatis1/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/springMVC/day03/crm/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/springMVC/day03/cors/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/springMVC/product/product/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/springMVC/product/portTest/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/springMVC/product/ajaxTest/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/springboot/sourceCode/springboot1/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/springboot/sourceCode/springboot2/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/springboot/sourceCode/springboot3/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/springboot/sourceCode/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/src/stage3/springboot/sourceCode/springboot4/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

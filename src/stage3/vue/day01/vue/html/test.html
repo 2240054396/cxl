@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/vue.js"></script>
+<!--    <script src="https://unpkg.com/vue@2.6.14/dist/vue.js"></script>-->
+</head>
+<body>
+    <div id="app">
+        <h1>{{name}}今年{{age}}岁</h1>
+        <input type="text" v-model="name"/>
+        <input type="text" v-model="age"/>
+    </div>
+    <script>
+        new Vue({
+            el:"#app",
+            data:{
+                name:"张三",
+                age:18
+            }
+        })
+    </script>
+</body>
+</html>

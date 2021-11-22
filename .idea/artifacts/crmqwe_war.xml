@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="crmqwe:war">
+    <output-path>$PROJECT_DIR$/../crm/qwe/qwe/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>crmqwe</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="crmqwe.war">
+      <element id="artifact" artifact-name="crmqwe:war exploded" />
+    </root>
+  </artifact>
+</component>

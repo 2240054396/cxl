@@ -1,0 +1,5 @@
+jdbc:
+  driverClassName: com.mysql.jdbc.Driver
+  url: jdbc:mysql:///crm50
+  username: root
+  password: wddcxx20010303.

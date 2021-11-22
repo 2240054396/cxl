@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="userDao" class="entity.UserDaoImpl">
+        <property name="name" value="cxl"/>
+    </bean>
+    <bean id="userService" class="entity.UserServiceImpl">
+        <property name="userDao" ref="userDao"/>
+    </bean>
+    <bean id="userController" class="entity.UserController">
+        <property name="userService" ref="userService"/>
+    </bean>
+    <bean class="entity.UserController">
+        <property name="userService" ref="userService"/>
+    </bean>
+    <bean class="entity.Entity">
+        <constructor-arg value="cxl"/>
+    </bean>
+    <bean class="entity.Entity">
+        <property name="name" value="cxl"/>
+        <property name="names">
+            <array>
+                <value>q</value>
+                <value>q</value>
+                <value>q</value>
+            </array>
+        </property>
+        <property name="nameList">
+            <list>
+                <value>q</value>
+                <value>w</value>
+                <value>e</value>
+            </list>
+        </property>
+        <property name="nameMap">
+            <map>
+                <entry key="1" value="cxl"/>
+                <entry key="2" value="gzt"/>
+            </map>
+        </property>
+        <property name="nameSet">
+            <set>
+                <value>qwe</value>
+                <value>1</value>
+            </set>
+        </property>
+        <property name="namePro">
+            <props>
+                <prop key="a">b</prop>
+            </props>
+        </property>
+    </bean>
+</beans>

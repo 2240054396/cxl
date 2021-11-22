@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="product" />
+        <module name="cors" />
+        <module name="mybatis1" />
+        <module name="ThreadLocalTest" />
+        <module name="springboot3" />
+        <module name="springboot4" />
+        <module name="spring_an" />
+        <module name="springMVC_xml" />
+        <module name="ssm" />
+        <module name="springmvc_an" />
+        <module name="demo" />
+        <module name="springboot1" />
+        <module name="springboot2" />
+        <module name="spring_xml" />
+        <module name="springXml" />
+        <module name="portTest" />
+        <module name="springSpringmvcMybatis" />
+        <module name="ajaxTest" />
+        <module name="springLifePeriod" />
+        <module name="springMybatis" />
+        <module name="crm" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ajaxTest" target="1.7" />
+      <module name="cors" target="1.7" />
+      <module name="crm" target="8" />
+      <module name="crmqwe" target="1.7" />
+      <module name="demo" target="1.8" />
+      <module name="lombok" target="1.5" />
+      <module name="mybatis" target="1.5" />
+      <module name="mybatis1" target="1.7" />
+      <module name="portTest" target="1.7" />
+      <module name="product" target="1.7" />
+      <module name="spring_an" target="1.5" />
+      <module name="spring_xml" target="1.7" />
+      <module name="springAnnotation" target="1.5" />
+      <module name="springboot1" target="1.7" />
+      <module name="springboot2" target="1.8" />
+      <module name="springboot3" target="1.8" />
+      <module name="springboot4" target="1.8" />
+      <module name="springLifePeriod" target="6" />
+      <module name="springmvc_an" target="1.5" />
+      <module name="springMVC_xml" target="1.5" />
+      <module name="springMybatis" target="1.7" />
+      <module name="springSpringmvcMybatis" target="1.5" />
+      <module name="springXml" target="1.5" />
+      <module name="ssm" target="1.5" />
+      <module name="ThreadLocalTest" target="1.5" />
+      <module name="untitled" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="springboot1" options="-parameters" />
+      <module name="springboot2" options="-parameters" />
+      <module name="springboot3" options="-parameters" />
+      <module name="springboot4" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    table,th,td{
+        border:solid 1px black;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+<span th:text="${user.introduce}"></span>
+<span th:utext="${user.introduce}"></span>
+<form>
+    <input type="hidden" name="uid" th:value="${user.uid}"><br>
+    <input type="text" name="username" th:value="${user.username}"><br>
+    <input type="password" name="password" th:value="${user.password}"><br>
+    <input type="text" name="birthday" th:value="${#dates.format(user.birthday,'yyyy-MM-dd')}"><br>
+    <textarea name="introduce" rows="10" cols="30" th:text="${user.introduce}"></textarea>
+</form>
+<form th:object="${user}">
+    <input type="hidden" name="uid" th:value="*{uid}"><br>
+    <input type="text" name="username" th:value="*{username}"><br>
+    <input type="password" name="password" th:value="*{password}"><br>
+    <input type="text" name="birthday" th:value="*{#dates.format(birthday,'yyyy-MM-dd')}"><br>
+    <textarea name="introduce" rows="10" cols="30" th:text="${user.introduce}"></textarea>
+</form>
+<div th:if="${user.age lt 18}">
+    未成年
+</div>
+<div th:if="${user.age eq 18}">
+    刚成年
+</div>
+<div th:if="${user.age gt 18}">
+    成年
+</div>
+
+<table>
+    <tr th:each="u,stat:${users}">
+        <td th:text="${u.uid}"></td>
+        <td th:text="${u.username}"></td>
+        <td th:text="${u.password}"></td>
+        <td th:text="${u.introduce}"></td>
+        <td th:text="${u.age}"></td>
+        <td th:text="${#dates.format(u.birthday,'yyyy-MM-dd')}"></td>
+        <td th:text="${stat}"></td>
+    </tr>
+</table>
+
+<span th:each="i:${#numbers.sequence(1,pageCount,1)}">
+    <a href="#" th:text="${i}"></a>
+</span>
+
+<div th:switch="${user.age}">
+    <div th:case="17">17</div>
+    <div th:case="18">18</div>
+    <div th:case="19">19</div>
+
+</div>
+
+</body>
+</html>

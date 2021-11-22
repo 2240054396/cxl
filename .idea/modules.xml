@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/src/stage3/spring/product/ThreadLocalTest/ThreadLocalTest.iml" filepath="$PROJECT_DIR$/src/stage3/spring/product/ThreadLocalTest/ThreadLocalTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/stage3/springMVC/product/ajaxTest/ajaxTest.iml" filepath="$PROJECT_DIR$/src/stage3/springMVC/product/ajaxTest/ajaxTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/stage3/springMVC/day03/cors/cors.iml" filepath="$PROJECT_DIR$/src/stage3/springMVC/day03/cors/cors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/stage3/springMVC/day03/crm/crm.iml" filepath="$PROJECT_DIR$/src/stage3/springMVC/day03/crm/crm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/stage3/springMVC/day03/crmf/crmf.iml" filepath="$PROJECT_DIR$/src/stage3/springMVC/day03/crmf/crmf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cxl.iml" filepath="$PROJECT_DIR$/cxl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/stage3/springboot/sourceCode/demo/demo.iml" filepath="$PROJECT_DIR$/src/stage3/springboot/sourceCode/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/stage3/mybatis/product/mybatis1/mybatis1.iml" filepath="$PROJECT_DIR$/src/stage3/mybatis/product/mybatis1/mybatis1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/stage3/springMVC/product/portTest/portTest.iml" filepath="$PROJECT_DIR$/src/stage3/springMVC/product/portTest/portTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/stage3/springMVC/product/product/product.iml" filepath="$PROJECT_DIR$/src/stage3/springMVC/product/product/product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/stage3/spring/product/springLifePeriod/springLifePeriod.iml" filepath="$PROJECT_DIR$/src/stage3/spring/product/springLifePeriod/springLifePeriod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/stage3/springMVC/day01/sourceCode/springMVC_xml/springMVC_xml.iml" filepath="$PROJECT_DIR$/src/stage3/springMVC/day01/sourceCode/springMVC_xml/springMVC_xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/stage3/spring/day03/springMybatis/springMybatis.iml" filepath="$PROJECT_DIR$/src/stage3/spring/day03/springMybatis/springMybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/stage3/springMVC/product/springSpringmvcMybatis/springSpringmvcMybatis.iml" filepath="$PROJECT_DIR$/src/stage3/springMVC/product/springSpringmvcMybatis/springSpringmvcMybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/stage3/spring/product/springXml/springXml.iml" filepath="$PROJECT_DIR$/src/stage3/spring/product/springXml/springXml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/stage3/spring/day02/sourceCode/spring_an/spring_an.iml" filepath="$PROJECT_DIR$/src/stage3/spring/day02/sourceCode/spring_an/spring_an.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/stage3/spring/day01/spring_xml/spring_xml.iml" filepath="$PROJECT_DIR$/src/stage3/spring/day01/spring_xml/spring_xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/stage3/springboot/sourceCode/springboot1/springboot1.iml" filepath="$PROJECT_DIR$/src/stage3/springboot/sourceCode/springboot1/springboot1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/stage3/springboot/sourceCode/springboot2/springboot2.iml" filepath="$PROJECT_DIR$/src/stage3/springboot/sourceCode/springboot2/springboot2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/stage3/springboot/sourceCode/springboot3/springboot3.iml" filepath="$PROJECT_DIR$/src/stage3/springboot/sourceCode/springboot3/springboot3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/stage3/springboot/sourceCode/springboot4/springboot4.iml" filepath="$PROJECT_DIR$/src/stage3/springboot/sourceCode/springboot4/springboot4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/stage3/springMVC/day01/sourceCode/springmvc_an/springmvc_an.iml" filepath="$PROJECT_DIR$/src/stage3/springMVC/day01/sourceCode/springmvc_an/springmvc_an.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/stage3/springMVC/day02/ssm/ssm.iml" filepath="$PROJECT_DIR$/src/stage3/springMVC/day02/ssm/ssm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/stage3/vue/day01/vue/vue.iml" filepath="$PROJECT_DIR$/src/stage3/vue/day01/vue/vue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/stage3/vue/product/vueProduct/vueProduct.iml" filepath="$PROJECT_DIR$/src/stage3/vue/product/vueProduct/vueProduct.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/stage3/vue/day01/vuetest/vuetest.iml" filepath="$PROJECT_DIR$/src/stage3/vue/day01/vuetest/vuetest.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="../../lib/jquary.js"></script>
+<script>
+    $.ajax({
+        url:"http://127.0.0.1:8080/product_war/user/isLogin",
+        headers: {"Token": localStorage.getItem("Token")},
+        success:function(data){
+            if (data.code()!==0){
+                alert(result.msg);
+                window.location="login.html";
+            }
+        }
+    })
+</script>
+<body>
+
+</body>
+</html>
